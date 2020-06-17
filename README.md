@@ -1,9 +1,16 @@
 # portfolio-analysis
 
 For this project, I will use series of calculations and models that
-considers both risk and returns of the securities within my portfolio. These calculations will allow me to make well-informed decisions
-that is backed by data and hopefully maximize my investment returns. 
-I will mostly focus on using the securities' variance and mean for the analysis. Dividends are also not accounted for in the analysis
+consider both risk and returns of the securities within my portfolio. These calculations will allow me to make well-informed decisions
+that is backed by data and hopefully maximize my investment returns. I will be using data from yahoo finance using panda's datareader and 
+extract the adjusted closing prices for a more accurate reflection of stocks' value at market close.
+
+Key numbers to look for in this analysis are the changes in percentage growth for the past 7 years, Diversifiable and non-diversifiable 
+risks of the portfolio, the efficient frontier, Beta coefficient, CAPM and the Sharpe Ratio. I wanted to use a 10 year data but ended up using 7
+because one of the securities in the portfolio only became publicly traded in 2013. 
+
+I will mostly focus on using the securities' variance and mean for the analysis. Dividends are also not accounted for in the analysis. 
+The goal of the analysis is to calculate annualized returns 
 
 When I calculate the annualized returns, I use 250 days because I am not including the days when the markets are closed
 
